@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR code generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="info">
+            <h1>تولید کننده ی کیوآرکد</h1>
+            <p>یک متن یا آدرس اینترنتی وارد بکن تا کیو آرشو تولید کنم...</p>
+        </div>
+        <form>
+            <input type="text" placeholder="متن یا آدرس اینترنتی"/>
+            <button type="button">تولید QR</button>
+        </form>
+        <div class="qr-code-box hidden">
+            <img src="./image/QR-code.jpg" alt="qr-code">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

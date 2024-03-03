@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Kufi Arabic", sans-serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: #1e5c0c8a;
+}
+
+.container {
+  width: 400px;
+  min-height: 300px;
+  margin: 10px auto 0;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+.container .info {
+  text-align: justify;
+  font-size: 1.1em;
+}
+.container .info h1 {
+  color: #eee;
+  background-color: #1e5c0c8a;
+  padding: 10px 0;
+  margin: 10px 0;
+  text-align: center;
+}
+.container form {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+}
+.container form :where(input, button) {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.container form input {
+  border: 1px dashed #1e5c0c8a;
+}
+.container form button {
+  background-color: #1e5c0c8a;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.container form button:hover {
+  background-color: #1d5c0c9a;
+}
+.qr-code-box {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.qr-code-box img {
+  width: 100%;
+}
+
+
+.hidden{
+    display: none;
+}
