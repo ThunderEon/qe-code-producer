@@ -15,3 +15,7 @@ button.addEventListener("click", () => {
     button.innerHTML = "تولید QR";
   });
 });
+
+input.addEventListener("keyup" , ()=>{
+    if(!input.value) return qrBox.classList.add("hidden");
+})
