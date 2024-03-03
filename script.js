@@ -1,7 +1,11 @@
+const form = document.querySelector("form");
 const input = document.querySelector("form input[type=text]");
 const button = document.querySelector("form button");
 const qrBox = document.querySelector(".qr-code-box");
 const qrImg = document.querySelector(".qr-code-box img");
+
+
+form.addEventListener("submit" , (e)=> e.preventDefault());
 
 button.addEventListener("click", () => {
   let qrValue = input.value;
